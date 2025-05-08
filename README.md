@@ -2,7 +2,7 @@
 
 This repo contains code and data for predicting whether consecutive protein-coding genes in *E. coli* K-12 substr. MG1655 (GCF_000005845.2_ASM584v2) form operons, using features from GC content, COG assignments, and TF‐motif scans.
 
-## 📁 Directory structure
+## Directory structure
 
 ```
 
