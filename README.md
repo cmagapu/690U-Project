@@ -35,7 +35,7 @@ We use the eggNOG-mapper web server:
 
 ## 2. Promoter/terminator Motifs (MEME/FIMO on generated intergenic_regions.fasta)
 
-We generate a fasta for intergenic region sequences
+We generate a fasta for intergenic region sequences < br / >
 We use the Docker image `memesuite/memesuite:latest`:
 
 ```bash
