@@ -14,13 +14,15 @@ This repo contains code and data for predicting whether consecutive protein-codi
 
 ````
 
-## Notes about the data
-> – All `GCF_000005845.2_ASM584v2` files were obtained from
-> `ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/005/845/GCF_000005845.2_ASM584v2/`
-> RegulonDB files (TF-RISet.tsv, PromoterSet.tsv, TerminatorSet.tsv) were obtained from
-> `https://regulondb.ccg.unam.mx/datasets`
+# Data
 
-## 1. COG data from eggNOG-mapper:
+All `GCF_000005845.2_ASM584v2` files were obtained from:  
+[https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/005/845/GCF_000005845.2_ASM584v2/](https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/005/845/GCF_000005845.2_ASM584v2/)
+
+RegulonDB files (`TF-RISet.tsv`, `PromoterSet.tsv`, `TerminatorSet.tsv`) were obtained from:  
+[https://regulondb.ccg.unam.mx/datasets](https://regulondb.ccg.unam.mx/datasets)
+
+## COG data from eggNOG-mapper:
 
 We use the eggNOG-mapper web server:
 
@@ -33,9 +35,9 @@ We use the eggNOG-mapper web server:
    * **Functional categories**: COG/KOG
 4. Submit and, when finished, download the “annotations” TSV into **data/eggnog\_out/** (e.g. `MM_4125ylpq.emapper.annotations.tsv`)., which is then used to create a df that merges with pairs_df in the notebook
 
-## 2. Promoter/terminator Motifs (MEME/FIMO on generated intergenic_regions.fasta)
+## Promoter/terminator Motifs (MEME/FIMO on generated intergenic_regions.fasta)
 
-We generate a fasta for intergenic region sequences < br / >
+We generate a fasta for intergenic region sequences
 We use the Docker image `memesuite/memesuite:latest`:
 
 ```bash
