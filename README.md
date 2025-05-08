@@ -33,8 +33,9 @@ We use the eggNOG-mapper web server:
    * **Functional categories**: COG/KOG
 4. Submit and, when finished, download the “annotations” TSV into **data/eggnog\_out/** (e.g. `MM_4125ylpq.emapper.annotations.tsv`)., which is then used to create a df that merges with pairs_df in the notebook
 
-## 2. Scan with MEME-Suite (FIMO)
+## 2. Promoter/terminator Motifs (MEME/FIMO on generated intergenic_regions.fasta)
 
+We generate a fasta for intergenic region sequences
 We use the Docker image `memesuite/memesuite:latest`:
 
 ```bash
