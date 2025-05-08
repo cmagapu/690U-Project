@@ -50,7 +50,3 @@ docker run --rm \
 ```
 
 This writes **data/fimo\_regdb\_tf/fimo.tsv**, which is then merged back into `pairs_df` in the notebook.
-
-
-```
-```
